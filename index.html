@@ -1,0 +1,115 @@
+# sho<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>小久保翔太 - 自己紹介</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right top, #dfe9f3, #ffffff);
+    }
+    .card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    h1 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 0.5em;
+      position: relative;
+    }
+    h1::after {
+      content: '';
+      width: 60px;
+      height: 3px;
+      background: #3498db;
+      display: block;
+      margin: 0.3em auto 0;
+      border-radius: 10px;
+    }
+    p {
+      color: #555;
+      margin: 0.5em 0;
+      font-size: 1rem;
+    }
+    .badges {
+      margin-top: 1em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5em;
+    }
+    .badges a {
+      display: flex;
+      align-items: center;
+      gap: 0.4em;
+      background: #ecf6ff;
+      color: #007acc;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      border-radius: 20px;
+      font-size: 0.9em;
+      transition: 0.3s ease;
+    }
+    .badges a:hover {
+      background: #d6ecff;
+    }
+    .footer {
+      font-size: 0.8em;
+      color: #aaa;
+      margin-top: 1.5em;
+      text-align: right;
+    }
+    iframe {
+      vertical-align: middle;
+    }
+    @media (max-width: 500px) {
+      .card {
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>小久保翔太</h1>
+    <p>現代社会学科2年</p>
+    <p><strong>出身地:</strong> 千葉県</p>
+    <p><strong>趣味:</strong></p>
+    <div class="badges">
+      <a href="https://bandai-hobby.net/item/01_5933/"><i class="fas fa-robot"></i>ガンダム</a>
+      <a href="https://sh-anime.shochiku.co.jp/pjsekai-movie/"><i class="fas fa-music"></i>プロセカ</a>
+      <a href="https://gakuen.idolmaster-official.jp/"><i class="fas fa-star"></i>学マス</a>
+      <a href="https://www.pokemontcgpocket.com/ja/"><i class="fas fa-gamepad"></i>ポケポケ</a>
+      <a href="#"><i class="fas fa-water"></i>海に行くこと</a>
+    </div>
+    <div class="footer">
+      あなたは: 
+      <iframe src="https://repo5.com/tool/freecounter/counter.cgi?ID=AQMIFHNGFS" width="22" height="24" frameborder="0"></iframe> 
+      番目のアクセス者です
+    </div>
+  </div>
+</body>
+</html>
